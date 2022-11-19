@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Rudolphp\LaravelTextlocal\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelTextlocalCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-textlocal';
 
     public $description = 'My command';
 
