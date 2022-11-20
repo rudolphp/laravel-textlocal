@@ -18,8 +18,10 @@ class LaravelTextlocalServiceProvider extends PackageServiceProvider
         $package
             ->name('laravel-textlocal')
             ->hasConfigFile()
+            /*
             ->hasViews()
             ->hasMigration('create_laravel-textlocal_table')
+            */
             ->hasCommand(LaravelTextlocalCommand::class);
     }
 }

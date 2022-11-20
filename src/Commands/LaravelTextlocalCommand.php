@@ -12,7 +12,7 @@ class LaravelTextlocalCommand extends Command
 
     public function handle(): int
     {
-        $this->comment('All done');
+        $this->comment('All done '.config('textlocal.config_token'));
 
         return self::SUCCESS;
     }
