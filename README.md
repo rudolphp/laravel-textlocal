@@ -1,10 +1,5 @@
 # This is a Wrapper for SMS Service of TextLocal.in
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/rudolphp/laravel-textlocal.svg?style=flat-square)](https://packagist.org/packages/rudolphp/laravel-textlocal)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/rudolphp/laravel-textlocal/run-tests?label=tests)](https://github.com/rudolphp/laravel-textlocal/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/rudolphp/laravel-textlocal/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/rudolphp/laravel-textlocal/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/rudolphp/laravel-textlocal.svg?style=flat-square)](https://packagist.org/packages/rudolphp/laravel-textlocal)
-
 Laravel Package to Integrate TextLocal.in SMS.
 
 ## Installation
