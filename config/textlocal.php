@@ -6,6 +6,7 @@ return [
     /**
      * Textlocal envs
      */
-    'TEXTLOCAL_USERNAME' => env('TEXTLOCAL_USERNAME'),
-    'TEXTLOCAL_HASH' => env('TEXTLOCAL_HASH')
+    'username' => env('TEXTLOCAL_USERNAME'),
+    'hash' => env('TEXTLOCAL_HASH'),
+    'apikey' => env('TEXTLOCAL_APIKEY'),
 ];

@@ -44,8 +44,10 @@ php artisan vendor:publish --tag="textlocal-views"
 ## Usage
 
 ```php
-$laravelTextlocal = new Rudolphp\LaravelTextlocal();
-echo $laravelTextlocal->echoPhrase('Hello, Rudolphp!');
+$sms = new LaravelTextlocal();
+
+// sender, optional
+$sms->send('message', 'mobile number','sender');
 ```
 
 ## Testing
@@ -62,15 +64,8 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
-## Security Vulnerabilities
+ ### Documentation
+ https://api.textlocal.in/docs/phpclass
 
-Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
-
-## Credits
-
-- [Rudolph Pereira](https://github.com/rudolphp)
-- [All Contributors](../../contributors)
-
-## License
-
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+### If you liked this package!
+<a href="https://www.buymeacoffee.com/rudolphp" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 200px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
